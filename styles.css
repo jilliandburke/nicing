@@ -4,10 +4,22 @@
   clear: both;
 }
 
+body {
+  width: 90%;
+  top: 0px;
+  margin-top: 0px;
+  padding: 5%;
+  padding-top: 0%;
+}
+
+.pic {
+  width: 100%;
+}
+
 .header {
   background-color: #F553B7;
   position: absolute;
-  width: 1280px;
+  width: 90%;
   height: 120px;
 }
 
