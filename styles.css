@@ -1,3 +1,9 @@
+.mainBody:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .header {
   background-color: #F553B7;
   position: absolute;
@@ -37,7 +43,7 @@
   position: absolute;
   left: 130px;
   top: 50px;
-  width: 400px;
+  width: 600px;
 }
 
 .mainSubheader {
@@ -57,4 +63,32 @@
 .mainHeader .pHeader {
   color: gray;
   word-wrap: normal;
+  font-size: 1.2em;
 }
+
+.mainSubheader h4 {
+  color: #03A0BF;
+  font-family: sans-serif;
+  font-weight: 550;
+  font-stretch: ultra-expanded;
+}
+
+.mainSubheader .pSubheader {
+  color: gray;
+  word-wrap: normal;
+  font-size: 1.2em;
+}
+
+.mainBottom {
+  background-color: #03A0BF;
+  position: absolute;
+  width: 1280px;
+  top: 1200px;
+}
+
+
+
+
+
+
+
