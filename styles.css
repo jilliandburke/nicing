@@ -23,5 +23,38 @@
 .nav li {
   display: inline;
   padding: 7px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-stretch: ultra-expanded;
 }
 
+.mainBody {
+  position: absolute;
+  width: 1280px;
+}
+
+.mainHeader {
+  position: absolute;
+  left: 130px;
+  top: 50px;
+  width: 400px;
+}
+
+.mainSubheader {
+  position: absolute;
+  right: 130px;
+  top: 100px;
+  width: 400px;
+}
+
+.mainHeader h1 {
+  color: #03A0BF;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-stretch: ultra-expanded;
+}
+
+.mainHeader .pHeader {
+  color: gray;
+  word-wrap: normal;
+}
