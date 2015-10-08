@@ -5,11 +5,12 @@
 }
 
 body {
-  width: 90%;
+  width: 100%;
   top: 0px;
   margin-top: 0px;
-  padding: 5%;
+  margin-left: 0px;
   padding-top: 0%;
+  padding-left: 0px;
 }
 
 .pic {
@@ -19,7 +20,7 @@ body {
 .header {
   background-color: #F553B7;
   position: absolute;
-  width: 90%;
+  width: 100%;
   height: 120px;
 }
 
@@ -75,7 +76,8 @@ body {
 .mainHeader .pHeader {
   color: gray;
   word-wrap: normal;
-  font-size: 1.2em;
+  font-family: sans-serif;
+  font-size: 1.4em;
 }
 
 .mainSubheader h4 {
@@ -88,13 +90,14 @@ body {
 .mainSubheader .pSubheader {
   color: gray;
   word-wrap: normal;
+  font-family: sans-serif;
   font-size: 1.2em;
 }
 
 .mainBottom {
   background-color: #03A0BF;
   position: absolute;
-  width: 1280px;
+  width: 100%;
   top: 1200px;
 }
 
