@@ -34,7 +34,7 @@ body {
   color: #CDF0F1;
   list-style-type: none;
   position: relative;
-  right: 170px;
+  right: 10%;
   top: 50px;
   font-size: 1.5em;
   float: right;
@@ -63,9 +63,9 @@ body {
 
 .mainSubheader {
   position: relative;
-  right: 170px;
+  right: 10%;
   top: 100px;
-  width: 430px;
+  width: 25%;
   float: right;
 }
 
