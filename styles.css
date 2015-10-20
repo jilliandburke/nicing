@@ -26,14 +26,14 @@ body {
   background-color: #F553B7;
   position: absolute;
   width: 100%;
-  height: 120px;
+  height: 18.8%;
 }
 
 .header img {
   position: relative;
   float: left;
   left: 5%;
-  top: 15%;
+  margin-top: 1.3%;
 }
 
 .nav ul {
@@ -41,14 +41,14 @@ body {
   list-style-type: none;
   position: relative;
   right: 10%;
-  top: 50px;
+  margin-top: 6%;
   font-size: 1.5em;
   float: right;
 }
 
 .nav li {
   display: inline;
-  padding: 7px;
+  padding: 1%;
   font-family: sans-serif;
   font-weight: 100;
   font-stretch: ultra-expanded;
@@ -115,27 +115,6 @@ body {
   top: 100px;
 }
 
-#circle {
-    height: auto; 
-    width: auto; 
-    max-width: 312px; 
-    max-height: 208px;
-}
-
-#wedding {
-    height: auto; 
-    width: auto; 
-    max-width: 312px; 
-    max-height: 208px;
-}
-
-#christmas {
-    height: auto; 
-    width: auto; 
-    max-width: 312px; 
-    max-height: 208px;
-}
-
 .mainBottom h1 {
   position: relative;
   color: #6623A7;
@@ -157,8 +136,8 @@ body {
 
 .secondPic {
   position: relative;
-  width: 19%;
-  left: 21%;
+  width: 19.5%;
+  left: 20%;
   top: 6%;
   float: left;
 }
@@ -166,9 +145,30 @@ body {
 .thirdPic {
   position: relative;
   width: 19%;
-  right: 11%;
+  right: 13%;
   top: 6%;
   float: right;
+}
+
+#circle {
+    max-width: 300px; 
+    max-height: 208px;
+    height: 200%; 
+    width: 200%; 
+}
+
+#wedding {
+    max-width: 300px; 
+    max-height: 208px;
+    height: 200%; 
+    width: 200%; 
+}
+
+#christmas {
+    max-width: 300px; 
+    max-height: 208px;
+    height: 200%; 
+    width: 200%; 
 }
 
 .firstPic h4 {
@@ -292,10 +292,76 @@ body {
 }
 
 
-/*
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
+
+  .header {
+  background-color: #F553B7;
+  position: absolute;
+  width: 100%;
+  height: 20%
+}
+  
+  .nav ul {
+  color: #CDF0F1;
+  list-style-type: none;
+  position: relative;
+  right: 10%;
+  margin-top: 6%;
+  font-size: 1.5em;
+}
+
+}
+
+
+@media screen and (max-width: 1109px) {
+  .header {
+  background-color: #F553B7;
+  position: absolute;
+  width: 100%;
+  height: 19.5;
+  z-index: 1;
+}
+  
+  .nav ul {
+  color: #CDF0F1;
+  list-style-type: none;
+  position: absolute;
+  right: 28%;
+  margin-top: 3.5%;
+  font-size: 1.5em;
+  clear: both;
+}
+  
+  .header img {
+  position: relative;
+  float: left;
+  height: 90%;
+  width: auto;
+  left: 36%;
+  right: 33%;
+  margin-top: 1.3%;
+  z-index: 15;
+}
+  
+  .navDiv {
+  background-color: #F553B7;
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  margin-top: 10%;
+  z-index: 0;
+  }
+  
+  .thirdPic {
+  position: relative;
+  width: 19%;
+  right: 13%;
+  top: 6%;
+  clear: both;
+}
   
 }
-*/
+
+
 
 
