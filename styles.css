@@ -111,7 +111,7 @@ body {
   background-color: #03A0BF;
   position: relative;
   width: 100%;
-  height: 750px;
+  height: 100%;
   top: 100px;
 }
 
@@ -225,7 +225,7 @@ body {
 .topFooter {
   position: relative;
   background-color: #F553B7;
-  top: 70px;
+  margin-top: 9.3%;
   height: 254px;
   width: 100%;
 }
@@ -352,13 +352,42 @@ body {
   z-index: 0;
   }
   
+  .mainBottom {
+  background-color: #03A0BF;
+  position: absolute;
+  margin-top: 120%;
+  width: 100%;
+  height: 260%;
+  top: 100px;
+}
+  
   .thirdPic {
   position: relative;
   width: 19%;
-  right: 13%;
-  top: 6%;
+  left: 10%;
+  top: 10%;
   clear: both;
+  float: left;
 }
+  
+  .topFooter {
+  position: absolute;
+  background-color: #F553B7;
+  margin-top: 150%;
+  height: 35%;
+  width: 100%;
+}
+  
+  .footer {
+  position: absolute;
+  background-color: #6623A7;
+  margin-top: 169%;
+  height: 10%;
+  width: 100%;
+}
+  
+  
+  
   
 }
 
