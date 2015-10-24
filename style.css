@@ -11,6 +11,7 @@
    margin-top: 0%;
    margin-left: 0%;
    margin-bottom: 0%;
+   margin-right: 0%;
    overflow-x: hidden;
  }
  
@@ -443,5 +444,189 @@
   }
 
 }
+
+
+@media screen and (max-width: 479px) {
+
+  .header {
+    height: 10%;
+  }
+
+  .header img {
+    position: absolute;
+    left: 38%;
+    top: 15%;
+    height: 60%;
+    width: auto;
+  }
+
+  .nav ul {
+    color: #CDF0F1;
+    list-style-type: none;
+    position: absolute;
+    right: 17%;
+    bottom: -10%;
+    font-size: 0.8em;
+    text-align: justify;
+    float: right;
+    border-top: 3px solid #231F20;
+    padding-right: 5.2%;
+    padding-top: 2.5%;
+  }
+
+  li:firstchild {
+    padding-left: 0%;
+  }
+
+  .nav li {
+    padding-left: 1.5%;
+  }
+
+  .firstPic .pSubheader {
+    font-size: 0.8em;
+  }
+
+  .secondPic .pSubheader {
+    font-size: 0.8em;
+  }
+
+  .thirdPic .pSubheader {
+    font-size: 0.8em;
+  }
+
+  .companyInfo {
+    position: relative;
+    margin-top: 1.4%;
+    left: 0%;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  .menu {
+    margin-top: 27%;
+    text-align: center;
+    margin-right: 14%;
+  }
+
+  .firstColumn {
+    float: left;
+    position: relative;
+    right: 27%;
+    line-height: 0.6;
+    font-size: 0.9em;
+  }
+
+  .secondColumn {
+    float: left;
+    position: relative;
+    right: 12%;
+    line-height: 0.6;
+    font-size: 0.9em;
+  }
+
+  .thirdColumn {
+    float: right;
+    position: relative;
+    line-height: 0.6;
+    font-size: 0.9em;
+  }
+  
+  .firstPic h4 {
+    color: #6623A7;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-stretch: ultra-expanded;
+  }
+
+  .secondPic h4 {
+    color: #6623A7;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-stretch: ultra-expanded;
+  }
+
+  .thirdPic h4 {
+    color: #6623A7;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-stretch: ultra-expanded;
+  }
+  
+  .topFooter {
+    position: relative;
+    background-color: #F553B7;
+    top: 70px;
+    height: 350px;
+    width: 100%;
+  }
+  
+  .mainBottom h1 {
+    position: relative;
+    color: #6623A7;
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    font-stretch: ultra-expanded;
+    top: 6%;
+    left: 25%;
+  }
+  
+  .mainHeader {
+    position: relative;
+    left: 10%;
+    margin-top: 7%;
+    width: 80%;
+    float: left;
+    clear: both;
+  }
+
+  .mainSubheader {
+    position: relative;
+    left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    float: left;
+    clear: both;
+  }
+
+  .mainHeader h1 {
+    color: #03A0BF;
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    font-stretch: ultra-expanded;
+  }
+
+  .mainHeader .pHeader {
+    color: gray;
+    word-wrap: normal;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.7;
+  }
+
+  .mainSubheader h5 {
+    color: #03A0BF;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-stretch: ultra-expanded;
+  }
+
+  .mainSubheader .pSubheader {
+    color: gray;
+    word-wrap: normal;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.7;
+  }
+
+}
+
 
 
