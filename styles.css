@@ -813,7 +813,7 @@ body {
   
 }
 
-@media screen and (max-width: 979px) {
+@media screen and (max-width: 479px) {
   .header {
   background-color: #F553B7;
   position: absolute;
