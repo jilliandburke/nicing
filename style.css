@@ -387,7 +387,7 @@
     padding-top: 2.82%;
   }
   
-  li:firstchild {
+  li {
     padding-left: 0%;
   }
   
@@ -474,7 +474,7 @@
     padding-top: 2.5%;
   }
 
-  li:firstchild {
+  li {
     padding-left: 0%;
   }
 
